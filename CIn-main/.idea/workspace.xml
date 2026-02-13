@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffeaf44d-7a76-4a1d-a561-66acc9ffdc49" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2n1X1gNxnO8QYXHY1iemF1tYIET" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.aluno_2019.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grafico.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/selvarpv/PycharmProjects/CIn-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;pyconsole&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.grafico">
+    <configuration name="aluno_2019" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CIn-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/etl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/etl/aluno_2019.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grafico" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CIn-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grafico.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.grafico" />
+        <item itemvalue="Python.aluno_2019" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.308" />
+        <option value="bundled-python-sdk-ca5e2b39c7df-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.308" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffeaf44d-7a76-4a1d-a561-66acc9ffdc49" name="Changes" comment="" />
+      <created>1728141343925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728141343925</updated>
+      <workItem from="1728141345508" duration="3309000" />
+      <workItem from="1728145586853" duration="139000" />
+      <workItem from="1728146219902" duration="918000" />
+      <workItem from="1728156411653" duration="3965000" />
+      <workItem from="1728236133305" duration="674000" />
+      <workItem from="1728336653102" duration="3034000" />
+      <workItem from="1728772222995" duration="8925000" />
+      <workItem from="1728831077646" duration="17764000" />
+      <workItem from="1728927391251" duration="2648000" />
+      <workItem from="1729019759759" duration="1900000" />
+      <workItem from="1729038687518" duration="3273000" />
+      <workItem from="1729103071806" duration="4670000" />
+      <workItem from="1729187319288" duration="5941000" />
+      <workItem from="1729387759302" duration="1103000" />
+      <workItem from="1729781025103" duration="1530000" />
+      <workItem from="1729791046105" duration="7252000" />
+      <workItem from="1729906220457" duration="2601000" />
+      <workItem from="1729955624485" duration="11467000" />
+      <workItem from="1730039461649" duration="10086000" />
+      <workItem from="1730056179005" duration="2239000" />
+      <workItem from="1730069650884" duration="6501000" />
+      <workItem from="1730122492266" duration="6799000" />
+      <workItem from="1730254328085" duration="1667000" />
+      <workItem from="1730292055380" duration="137000" />
+      <workItem from="1730292567502" duration="13254000" />
+      <workItem from="1730380768624" duration="910000" />
+      <workItem from="1742782834310" duration="224000" />
+      <workItem from="1742910601646" duration="162000" />
+      <workItem from="1745871985096" duration="1786000" />
+      <workItem from="1761165361269" duration="116000" />
+      <workItem from="1761226396253" duration="4870000" />
+      <workItem from="1761240648125" duration="5268000" />
+      <workItem from="1761334574140" duration="2244000" />
+      <workItem from="1762536326959" duration="162000" />
+      <workItem from="1762727530523" duration="939000" />
+      <workItem from="1762737897525" duration="544000" />
+      <workItem from="1763232060425" duration="3231000" />
+      <workItem from="1763586018393" duration="200000" />
+      <workItem from="1763586779165" duration="207000" />
+      <workItem from="1763763092677" duration="149000" />
+      <workItem from="1764167729695" duration="1140000" />
+      <workItem from="1764170014188" duration="595000" />
+      <workItem from="1764170698863" duration="1251000" />
+      <workItem from="1764172000321" duration="504000" />
+      <workItem from="1764172524963" duration="1466000" />
+      <workItem from="1764261332462" duration="3552000" />
+      <workItem from="1764357410580" duration="6006000" />
+      <workItem from="1764431425608" duration="276000" />
+      <workItem from="1764616271601" duration="436000" />
+      <workItem from="1764800990011" duration="1648000" />
+      <workItem from="1764871971539" duration="2202000" />
+      <workItem from="1764897685843" duration="155000" />
+      <workItem from="1765034955648" duration="2267000" />
+      <workItem from="1765056817671" duration="1063000" />
+      <workItem from="1765292958380" duration="2020000" />
+      <workItem from="1765295380679" duration="3616000" />
+      <workItem from="1765577087293" duration="154000" />
+      <workItem from="1765726465261" duration="721000" />
+      <workItem from="1765897627050" duration="660000" />
+      <workItem from="1765936580865" duration="1404000" />
+      <workItem from="1767385427826" duration="108000" />
+      <workItem from="1767619677708" duration="625000" />
+      <workItem from="1768746997224" duration="100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CIn_main$grafico.coverage" NAME="grafico Coverage Results" MODIFIED="1765296779981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CIn_main$aluno_2019.coverage" NAME="aluno_2019 Coverage Results" MODIFIED="1728142192540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etl" />
+  </component>
+</project>

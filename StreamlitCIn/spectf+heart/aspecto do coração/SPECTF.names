@@ -1,0 +1,108 @@
+1. Título do banco de dados: Dados cardíacos de SPECTF
+
+2. Fontes:
+-- Proprietários originais: Krzysztof J. Cios, Lukasz A. Kurgan
+Universidade do Colorado em Denver, Denver, CO 80217, EUA
+Krys.Cios@cudenver.edu
+Lucy S. Goodenday
+Faculdade de Medicina de Ohio, OH, EUA
+-- Doadores: Lukasz A.Kurgan, Krzysztof J. Cios
+-- Data: 01/10/2001
+
+3. Uso anterior:
+1. Kurgan, L.A., Cios, K.J., Tadeusiewicz, R., Ogiela, M. & Goodenday, L.S.
+"Abordagem de Descoberta de Conhecimento para Diagnóstico Automatizado de SPECT Cardíaco"
+Inteligência Artificial em Medicina, vol. 23:2, pp 149-169, out 2001
+
+Resultados: O algoritmo de aprendizado de máquina CLIP3 atingiu 77,0% de precisão.
+Referências sobre CLIP3:
+Cios, K.J., Wedding, D.K. & Liu, N.
+CLIP3: abrange o aprendizado usando programação inteira.
+Kybernetes, 26:4-5, pp 513-536, 1997
+
+Cios K. J. & Kurgan L.
+Aprendizado de Máquina Indutivo Híbrido: Uma Visão Geral dos Algoritmos CLIP,
+In: Jain L.C. e Kacprzyk J. (Orgs.)
+Novos Paradigmas de Aprendizado em Computação Leve,
+Physica-Verlag (Springer), 2001
+
+SPECTF é um bom conjunto de dados para testar algoritmos de ML; possui 267 instâncias descritas por 45 atributos.
+Atributo previsto: DIAGNÓSTICO_GERAL (binário)
+NOTA: Consulte os dados cardíacos de SPECT para obter dados binários para a mesma tarefa de classificação.
+
+4. Informações Relevantes:
+O conjunto de dados descreve o diagnóstico de imagens cardíacas de Tomografia Computadorizada por Emissão de Prótons Único (SPECT).
+Cada um dos pacientes é classificado em duas categorias: normal e anormal.
+O banco de dados de 267 conjuntos de imagens de SPECT (pacientes) foi processado para extrair características que resumem as imagens de SPECT originais.
+Como resultado, 44 ​​padrões de características contínuas foram criados para cada paciente.
+O algoritmo CLIP3 foi usado para gerar regras de classificação a partir desses padrões.
+O algoritmo CLIP3 gerou regras com precisão de 77,0% (em comparação com os diagnósticos dos cardiologistas).
+
+5. Número de Instâncias: 267
+6. Número de Atributos: 45 (44 contínuos + 1 classe binária)
+7. Informações sobre Atributos:
+1. DIAGNÓSTICO_GERAL: 0,1 (atributo de classe, binário)
+2. F1R: contínuo (contagem na ROI (região de interesse) 1 em repouso)
+3. F1S: contínuo (contagem na ROI 1 em estresse)
+4. F2R: contínuo (contagem na ROI 2 em repouso)
+5. F2S: contínuo (contagem na ROI 2 em estresse)
+6. F3R: contínuo (contagem na ROI 3 em repouso)
+7. F3S: contínuo (contagem na ROI 3 em estresse)
+8. F4R: contínuo (contagem na ROI 4 em repouso)
+9. F4S: contínuo (contagem na ROI 4 em estresse)
+10. F5R: contínuo (contagem na ROI 5 em repouso)
+11. F5S: contínuo (contagem na ROI 5 em estresse)
+12. F6R: contínuo (contagem na ROI 6 em repouso)
+13. F6S: contínuo (contagem na ROI 6 em estresse)
+14. F7R: contínuo (contagem na ROI 7 em repouso)
+15. F7S: contínuo (contagem na ROI 7 em estresse)
+16. F8R: contínuo (contagem na ROI 8 em repouso)
+17. F8S: contínuo (contagem na ROI 8 em estresse)
+18. F9R: contínuo (contagem na ROI 9 em repouso)
+19. F9S: contínuo (contagem na ROI 9 em estresse)
+20. F10R: contínuo (contagem na ROI 10 em repouso)
+21. F10S: contínuo (contagem na ROI 10 em estresse)
+22. F11R: contínuo (contagem na ROI 11 em repouso)
+23. F11S: contínuo (contagem na ROI 11 em estresse)
+24. F12R: contínuo (contagem na ROI 12 em repouso)
+25. F12S: contínuo (contagem na ROI 12 em estresse)
+26. F13R: contínuo (contagem na ROI 13 em repouso)
+27. F13S: contínuo (contagem na ROI 13 em estresse)
+28. F14R: contínuo (contagem na ROI 14 em repouso)
+29. F14S: contínuo (contagem na ROI 14 em estresse)
+30. F15R: contínuo (contagem na ROI 15 em repouso)
+31. F15S: contínuo (contagem na ROI 15 em estresse)
+32. F16R: contínuo (contagem na ROI 16 em repouso)
+33. F16S: contínuo (contagem na ROI 16 em estresse)
+34. F17R: contínuo (contagem na ROI 17 em repouso)
+35. F17S: contínuo (contagem na ROI 17 em estresse)
+36. F18R: contínuo (contagem na ROI 18 em repouso)
+37. F18S: contínuo (contagem na ROI 18 em estresse)
+38. F19R: contínuo (contagem na ROI 19 em repouso)
+39. F19S: contínuo (contagem na ROI 19 em estresse)
+40. F20R: contínuo (contagem na ROI 20 em repouso)
+41. F20S: contínuo (contagem na ROI 20 em estresse)
+42. F21R: contínuo (contagem na ROI 21 em repouso)
+43. F21S: contínuo (contagem na ROI 21 em estresse)
+44. F22R: contínuo (contagem na ROI 22 em repouso)
+45. F22S: contínuo (contagem na ROI 22 em estresse)
+-- todos os atributos contínuos têm valores inteiros de 0 a 100
+-- o conjunto de dados é dividido em:
+-- dados de treinamento ("SPECTF.train" 80 instâncias)
+-- dados de teste ("SPECTF.test" 187 instâncias)
+8. Valores de Atributos Ausentes: Nenhum
+9. Distribuição de Classes:
+-- dados completos
+Exemplos de Classe #
+0 55
+1 212
+-- conjunto de dados de treinamento
+Exemplos de Classe #
+0 40
+1 40
+-- conjunto de dados de teste
+Exemplos de Classe #
+0 15
+1 172
+
+NOTA: Consulte os dados do SPECT Heart para dados binários para a mesma tarefa de classificação.

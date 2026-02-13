@@ -1,0 +1,42 @@
+{
+"REGIAO": [
+{
+ "Centro-Oeste": 0,
+ "Nordeste": 1,
+ "Norte": 2,
+ "Sudeste": 3,
+ "Sul": 4
+}
+],
+"UF": [
+{
+ "Acre": 0,
+ "Alagoas": 1,
+ "AmapÃÂ¡": 2,
+ "Amazonas": 3,
+ "Bahia": 4,
+ "CearÃÂ¡": 5,
+ "Distrito Federal": 6,
+ "EspÃÂ­rito Santo": 7,
+ "GoiÃÂ¡s": 8,
+ "MaranhÃÂ£o": 9,
+ "Mato Grosso": 10,
+ "Mato Grosso do Sul": 11,
+ "Minas Gerais": 12,
+ "ParanÃÂ¡": 13,
+ "ParaÃÂ­ba": 14,
+ "ParÃÂ¡": 15,
+ "Pernambuco": 16,
+ "PiauÃÂ­": 17,
+ "Rio Grande do Norte": 18,
+ "Rio Grande do Sul": 19,
+ "Rio de Janeiro": 20,
+ "RondÃÂ´nia": 21,
+ "Roraima": 22,
+ "Santa Catarina": 23,
+ "Sergipe": 24,
+ "SÃÂ£o Paulo": 25,
+ "Tocantins": 26
+}
+]
+}

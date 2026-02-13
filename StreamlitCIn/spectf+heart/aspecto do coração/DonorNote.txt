@@ -1,0 +1,11 @@
+1º de setembro de 2006
+
+SPECTF.test foi modificado (veja a Nota do Doador abaixo para justificativa).
+O conjunto de testes incorreto foi renomeado para SPECTFincorrect.test
+
+--Bibliotecário
+
+Nota do Doador:
+
+> O arquivo incorreto é o SPECTF.test no conjunto de dados SPECT. Ele contém
+> muitos exemplos (duplica o arquivo de treinamento) e alguns pontos de dados estão repetidos.
